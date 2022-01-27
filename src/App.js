@@ -12,9 +12,6 @@ function App() {
 
   return (
     <div className="">
-      <h1 className="text-3xl text-red-500 text-center">
-      Hello world!
-      </h1>
       <nav className="bg-gray-100 shadow-lg top-0 z-50 w-full fixed">
         <div className="max-w-7xl">
             <div className="flex justify-between text-gray-700">
