@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import header from "./images/header.png";
 // import "./main.js";
 
@@ -84,7 +83,7 @@ function App() {
             </button>
         </a>
       </div>
-      <p className="font-medium text-lg text-center tracing-wider mt-48 mb-2">Built with <span className="text-red-500 text-2xl">&#9829 </span> by <a href="https://www.twitter.com/iamsegunajibola" className="text-blue-800">Segun Ajibola</a>
+      <p className="font-medium text-lg text-center tracing-wider mt-48 mb-2">Built with <span className="text-red-500 text-2xl"><i class="fas fa-heart"></i></span> by <a href="https://www.twitter.com/iamsegunajibola" className="text-blue-800">Segun Ajibola</a>
       </p>
     </div>
   );    
