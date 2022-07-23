@@ -1,9 +1,7 @@
 import React from 'react';
 import header from "./images/header.png";
-// import "./main.js";
 
 function App() {
-
   const showComponents = () => {
     const menu = document.querySelector(".menu");
     menu.classList.toggle("hidden")
@@ -77,8 +75,7 @@ function App() {
       <div className="flex justify-center mt-20 items-center">
         <a href="https://github.com/segunajibola/Tailwinder">
             <button
-            className="inline-flex items-center px-4 py-2 font-semibold bg-gray-200 m-5 rounded-md shadow-xl text-blue-400"
-            >
+            className="inline-flex items-center px-4 py-2 font-semibold bg-gray-200 m-5 rounded-md shadow-xl text-blue-400">
             <span>Contribute to, know more about Tailwinder on Github</span>
             </button>
         </a>
